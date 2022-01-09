@@ -1,0 +1,38 @@
+body {
+    font-family: "Futura", sans-serif;
+    color: #333;
+  }
+  .letters {
+    display: flex;
+    flex-wrap: wrap;
+    height: 7.5in;
+    width: 10.5in;
+    outline: 1px solid #ddd;
+    margin: 0.25in auto;
+    justify-content: center;
+    align-items: center;
+  
+    @media print {
+      margin: 0;
+      outline: none;
+    }
+  }
+  
+  .letter {
+    width: 1.5in;
+    height: 1.5in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1in;
+  }
+  
+  .note {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.2in;
+    letter-spacing: 0.02in;
+    text-align: center;
+    border-top: 0.025in solid;
+    padding: 0.2in 0;
+  }
